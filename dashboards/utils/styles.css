@@ -1,0 +1,84 @@
+/* Importando fonte estilo Tech */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&family=Roboto+Mono:wght@300;700&display=swap');
+
+/* Fundo Geral */
+.stApp {
+    background-color: #090C10;
+    background-image: radial-gradient(circle at 50% 0%, #1c2331 0%, #090C10 70%);
+    color: #E0E0E0;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+}
+
+/* Cards Customizados (Container CSS) */
+.css-card {
+    background-color: #161B22;
+    border: 1px solid #30363D;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.css-card:hover {
+    border-color: #00F0FF;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
+}
+
+/* Métricas Customizadas */
+.metric-container {
+    background: linear-gradient(180deg, rgba(22, 27, 34, 0.8) 0%, rgba(13, 17, 23, 1) 100%);
+    border-left: 4px solid #00F0FF;
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 10px;
+}
+
+.metric-label {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    color: #8B949E;
+    text-transform: uppercase;
+}
+
+.metric-value {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.metric-delta {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+}
+
+/* Abas */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+    background-color: transparent;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    color: #8B949E;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    background-color: #00F0FF !important;
+    padding: 15px;
+    color: #000000 !important;
+}
