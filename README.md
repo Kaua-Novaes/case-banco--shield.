@@ -148,11 +148,11 @@ jupyter >= 1.0.0
 
 ## 🚀 Instalação
 
-### 1. Clonar/Copiar o Projeto
+### 1. Clonar Repositório
 
 ```bash
 # Navegar até o diretório do projeto
-cd "/Users/kauanovaes/Desktop/Analise de dados - Estudo"
+git clone https://github.com/Kaua-Novaes/case-banco--shield.git
 ```
 
 ### 2. Criar Ambiente Virtual (Recomendado)
